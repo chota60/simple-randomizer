@@ -5,4 +5,4 @@ services:
     volumes:
       - .:/usr/src/app
     working_dir: /usr/src/app
-    command: python main.py 20  # ここでパスワードの長さを指定します (例: 12)
+    command: python main.py 20  # ここで乱数の長さを指定します (例: 12)
